@@ -2,3 +2,48 @@
     padding: 0;
     margin: 0;
 }
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    margin-top: 14px;
+}
+
+.header__logo {
+    margin-top: 26px;
+    margin-bottom: 48px;
+}
+
+.header__link {
+    margin-top: 37px;
+    margin-bottom: 60px;
+
+
+}
+
+.top__content {
+    margin-top: 21px;
+    margin-bottom: 53px;
+
+}
+
+.title {
+    margin-top: 59px;
+    margin-bottom: 17px;
+}
+
+.text {
+    margin-bottom: 16px;
+
+}
+
+.top__button {
+    margin-bottom: 38px;
+
+}
+
+.top__logo { 
+    margin-bottom: 32px;
+}
