@@ -1,0 +1,159 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    background-color: #fff;
+
+}
+
+.top {
+    display: flex;
+}
+
+.header {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin-top: 14px;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 84px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    width: 533px;
+    margin-top: 40px;
+    
+}
+
+.menu__link {
+    padding: 20px;
+    font-family: Mixed;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 100%;
+    align-self: auto;
+    vertical-align: Top;
+}
+
+.menu__link:first-child {
+    padding-left: 0;
+}
+
+.menu__link:last-child {
+    padding-right: 0;
+}
+
+.header__logo {
+
+    margin-top: 40px;
+    margin-bottom: 10;
+    margin-right: 500px;
+}
+
+.header__link {
+    margin-left: 500px;
+    width: 533px;
+    height: 17px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #F25822;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.link__nav {
+    
+    line-height: 16px;
+    color: #F25822;
+}
+
+.top__content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 162px;
+    
+
+}
+
+.top__info {
+    
+    width: 522px;
+    margin-right: 38px;
+
+}
+
+.top__info__link {
+    width: 140px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    text-align: center;
+    color: #fff;
+    margin-right: 108px;
+    background: #F25822;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 50px;
+    vertical-align: Top;
+}
+
+.title {
+
+    text-align: left;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 100%;
+    vertical-align: Top;
+    margin-bottom: 17px;
+
+}
+
+.text {
+    margin-bottom: 52px;
+    font-family: Gilroy-Medium;
+    font-style: ☞;
+    font-size: 20px;
+    line-height: 100%;
+    vertical-align: Top;
+}
+
+.button-box {
+    display: flex;
+}
+
+.top__img {
+    width: 610px;
+}
+
+
+
+
+.top__logo { 
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+
+}
+
+.top__logo__img {
+    margin: 97px 24px 96px 24px;
+}
