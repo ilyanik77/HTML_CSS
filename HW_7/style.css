@@ -62,6 +62,7 @@ header {
 
 .promo-right__title {
     border-left: 12px solid #F16D7F;
+    padding-left: 16px;
 }
 
 .promo-rigth h1 {
@@ -229,4 +230,47 @@ header {
     color: #FF6A6A;
     border: 1px solid #FF6A6A;
     padding: 15px 39px 14px 39px;
+}
+
+@media (max-width: 1024px) {
+    .center {
+        padding-right: calc(50% - 368px);
+        padding-left: calc(50% - 368px);
+    }
+
+    .promo-rigth {
+        margin-left: 39px;
+    }
+
+    .promo-left {
+        max-width: 368px;
+    }
+
+    .promo-rigth h1 {
+        Font-size: 44px;
+        Line-height: 52.8px;
+    }
+
+    .promo-rigth h2 {
+        Font-size: 24px;
+        Line-height: 28.8px;
+    }
+
+    .offer {
+        gap: 19px;
+        padding-top: 65px;
+        padding-bottom: 109.92px;
+    }
+
+    .products__content__box {
+        gap: 16px;
+        padding-top: 72.74px;
+        padding-bottom: 32.48px;
+    }
+
+    .button__link {
+        margin-top: 32.48px;
+        margin-bottom: 70.52px;
+    }
+
 }
