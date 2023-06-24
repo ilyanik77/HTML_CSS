@@ -277,6 +277,10 @@ header {
 
 @media (min-width: 320px) and (max-width: 768px)  {
     
+    .center {
+        padding-right: calc(50% - 367px);
+        padding-left: calc(50% - 367px);
+    }
 
     .promo-left {
         display: none;
