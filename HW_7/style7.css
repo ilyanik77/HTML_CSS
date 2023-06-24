@@ -232,7 +232,7 @@ header {
     padding: 15px 39px 14px 39px;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .center {
         padding-right: calc(50% - 368px);
         padding-left: calc(50% - 368px);
@@ -271,6 +271,16 @@ header {
     .button__link {
         margin-top: 32.48px;
         margin-bottom: 70.52px;
+    }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 768px)  {
+    
+
+    .promo-left {
+        display: none;
     }
 
 }
