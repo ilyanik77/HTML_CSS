@@ -26,7 +26,7 @@ img {
 }
 
 header {
-    background-color: black;
+    background-color: #222222;
     display: flex;
     justify-content: space-between;
 }
@@ -221,10 +221,142 @@ header {
 
 .button__link {
     margin-top: 48px;
-    margin-bottom: 60px;
+    margin-bottom: 95.5px;
     color: #FF6A6A;
     border: 1px solid #FF6A6A;
     padding: 15px 39px 14px 39px;
+}
+
+.feature {
+    background-color: #222224;
+    color: #FBFBFB;
+}
+
+.feature__content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 360px) ;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 103px;
+    padding-bottom: 106px;
+}
+
+.feature__content__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.feature__content__item img {
+    width: 44.98px;
+}
+
+.feature__content__item h3 {
+    margin-top: 28.07px;
+    font-size: 19.96px;
+}
+
+.feature__content__item p {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 13.972px;
+    font-family: Lato;
+    font-weight: 300;
+}
+
+.subscribe {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.subscribe__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe__info img {
+    border-radius: 50%;
+    margin-top: 86.59px;
+}
+
+.subscribe__info__text {
+    color: #222224;
+    text-align: center;
+    font-size: 20px;
+    font-family: Lato;
+    text-align: center;
+    margin-bottom: 126px;    
+}
+
+.subscribe__rigth {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.subscribe__rigth h3 {
+    color: #222224;
+    text-align: center;
+    font-size: 24px;
+    font-family: Lato;
+    font-weight: 700;
+    margin-top: 150px;
+}
+
+.subscribe__button form {
+    max-width: 341px;
+    max-height: 46.9px;
+    display: flex;
+    
+}
+
+.subscribe__button button {
+    width: 100px;
+    height: 49px;
+    background-color: #F16D7F;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-family: Lato;
+}
+
+.subscribe__button input {
+    width: 256px;
+    height: 100%;
+}
+
+.footer {
+    min-height: 79px;
+    background-color: #222224;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__text {
+    color: #FBFBFB;
+    font-size: 16px;
+    font-family: Lato;
+}
+
+.footer__nav {
+    display: flex;
+}
+
+.footer__nav__link {
+    display: flex;
+    width: 31.451px;
+    height: 32px;
+    background-color: #fff;
+    margin-left: 7.29px;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 
@@ -270,6 +402,43 @@ header {
     .button__link {
         margin-top: 32.48px;
         margin-bottom: 70.52px;
+    }
+
+    .feature__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding-top: 103px;
+        padding-bottom: 106px;
+    }
+
+    .feature__content__item {
+        max-width: 360px;
+    }
+
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subscribe__info {
+        max-width: 359.449px;
+        max-height: 225px;
+    }
+
+    .subscribe__rigth {
+        margin-top: 48px;
+        margin-bottom: 140px;
+        max-width: 557px;
+        max-height: 137px;
+    }
+
+    .subscribe__rigth h3 {
+        margin-top: 48px;
     }
 
 }
@@ -319,6 +488,50 @@ header {
 
     .content__item img {
         width: 100%;
+    }
+
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subscribe__info {
+        max-width: 343px;
+        max-height: 194px;
+    }
+
+    .subscribe__info__text {
+        color: #222224;
+        text-align: center;
+        font-size: 18px;
+        font-family: Lato;
+    }
+
+    .subscribe__rigth {
+        margin-top: 59px;
+        margin-bottom: 140px;
+        max-width: 341px;
+        max-height: 123.081px;
+    }
+
+    .footer {
+        min-height: 143px;
+        background-color: #222224;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer__nav {
+        margin-top: 43px;
+        margin-bottom: 40px;
+    }
+
+    .footer__text {
+        margin-bottom: 9px;
     }
 
 
