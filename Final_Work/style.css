@@ -227,6 +227,11 @@ header {
     padding: 15px 39px 14px 39px;
 }
 
+.button__link:hover {
+    background-color: #F16D7F;
+    color: #fff;
+}
+
 .feature {
     background-color: #222224;
     color: #FBFBFB;
@@ -356,6 +361,17 @@ header {
     margin-left: 7.29px;
     justify-content: center;
     align-items: center;
+
+    
+}
+
+.footer__nav__link:hover {
+    background-color: #F16D7F;
+}
+
+.footer__nav__link:hover path{
+    
+    fill: #fff;
 }
 
 
