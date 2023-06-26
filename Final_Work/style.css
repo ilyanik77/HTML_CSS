@@ -25,8 +25,13 @@ img {
     margin: 0 auto;
 }
 
-header {
+.header {
     background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__content {
     display: flex;
     justify-content: space-between;
 }
@@ -35,10 +40,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-right: 859px;
 }
 
 .item {
     padding: 26px 33px 20px 33px;
+}
+
+.menu__nav {
+    display: flex;
 }
 
 .promo {
@@ -271,7 +281,8 @@ header {
 }
 
 .subscribe {
-    
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(img/Layer\ 41.png);
+    /*filter: brightness(0.8);*/
     display: flex;
     justify-content: space-around;
     align-items: baseline;
@@ -343,10 +354,16 @@ header {
     align-items: center;
 }
 
+.footer__content {
+    display: flex;
+    align-items: center;
+}
+
 .footer__text {
     color: #FBFBFB;
     font-size: 16px;
     font-family: Lato;
+    margin-right: 655px;
 }
 
 .footer__nav {
