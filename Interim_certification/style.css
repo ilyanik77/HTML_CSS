@@ -73,16 +73,17 @@ header {
 
 .menu__nav:hover .menu__nav-1 {
     display: block;
+    z-index: 1;
 }
 
 .menu__nav-1 {
-    width: 232px;
+    width: max-content;
     height: 634px;
     background: #FFF;
     display: none;
     position: absolute;
     top: 55px;
-    left: 50px;
+    left: -50px;
     z-index: 2;
     
 }
